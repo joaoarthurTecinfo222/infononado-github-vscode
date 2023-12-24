@@ -1,0 +1,29 @@
+  /* Estilos para botões */
+button {
+    width: 60%; 
+    /* Define a largura do botão como 100% do seu contêiner */
+    padding: 16px 0px; 
+    /* Define o preenchimento interno do botão: 16px no topo e base, 0px nas laterais */
+    margin: 25px; 
+    /* Adiciona margem externa ao botão de 25px em todas as direções */
+    border: none; 
+    /* Remove a borda do botão */
+    border-radius: 8px; 
+    /* Define um raio de borda de 8px para criar cantos arredondados */
+    outline: none; 
+    /* Remove o contorno padrão (focus outline) ao interagir com o botão */
+    text-transform: uppercase; 
+    /* Transforma o texto do botão em maiúsculas */
+    font-weight: 800; 
+    /* Define a espessura da fonte para negrito (fonte forte) */
+    letter-spacing: 1px;
+     /* Adiciona espaçamento entre letras de 3px para aumentar a distância entre os caracteres */
+    color: #2b134b; 
+    /* Define a cor do texto do botão como um tom de roxo escuro */
+    background: #00ff88;
+     /* Define a cor de fundo do botão como verde-azulado */
+    cursor: pointer; 
+    /* Altera o cursor do mouse para uma mão ao passar sobre o botão, indicando que é clicável */
+    box-shadow: 0px 10px 40px -12px #00ff88; 
+    /* Adiciona uma sombra ao botão, criando um efeito de elevação suave */
+}

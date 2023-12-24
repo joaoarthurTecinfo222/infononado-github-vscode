@@ -1,0 +1,103 @@
+/* Define estilos globais para todos os elementos */
+* {
+  box-sizing: border-box; /* Define a caixa de modelo como border-box para incluir preenchimento e borda no tamanho total */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove preenchimento padrão */
+  font-family: "Poppins", sans-serif; /* Define a família de fontes padrão */
+  max-height: 700px; 
+}
+
+/* Estilos para o corpo da página */
+body {
+  background-image: url("../img/nat10.webp"); /* Define a imagem de fundo */
+  width: 100%; /* Define a largura como 100% */
+  min-height: 100vh; /* Define a altura mínima como 100% da altura da janela de visualização */
+  display: flex; /* Usa um layout flexível para centralizar o conteúdo verticalmente e horizontalmente */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo dentro do corpo */
+  align-items: center; /* Centraliza verticalmente o conteúdo dentro do corpo */
+}
+
+/* Estilos para um contêiner principal */
+.container {
+  background-color: #909fe1; /* Define a cor de fundo do contêiner */
+  border-radius: 20px; /* Define um raio de borda arredondada de 20px */
+  margin: 14px; /* Define margens de 14px em todos os lados */
+  max-width: 400px; /* Define a largura máxima do contêiner */
+  width: 30%; /* Define a largura como 30% do contêiner pai */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao contêiner */
+  overflow: hidden; /* Oculta conteúdo que estiver fora do contêiner */
+}
+
+/* Estilos para o cabeçalho */
+.header {
+  background: linear-gradient(120deg, #102390 0%, #5855f1 100%); /* Aplica um plano de fundo gradiente linear ao cabeçalho */
+  padding: 24px; /* Adiciona preenchimento de 24px */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  color: #FFF; /* Define a cor do texto como branco */
+}
+
+/* Estilos para o formulário */
+.form {
+  padding: 10px; 
+
+  /* Adiciona preenchimento de 18px ao formulário */
+}
+
+/* Estilos para o conteúdo do formulário */
+.form-content {
+  margin-bottom: 8px; /* Adiciona margem inferior de 8px */
+  padding-bottom: 18px; /* Adiciona preenchimento inferior de 18px */
+  position: relative; /* Define a posição como relativa para posicionar elementos filhos */
+}
+
+/* Estilos para rótulos no formulário */
+.form-content label {
+  display: inline-block; /* Exibe os rótulos como blocos para facilitar o alinhamento */
+  margin-bottom: 4px; /* Adiciona margem inferior de 4px aos rótulos */
+}
+
+/* Estilos para campos de entrada no formulário */
+.form-content input {
+  display: block; /* Exibe os campos de entrada como blocos para preencher a largura disponível */
+  width: 100%; /* Define a largura como 100% do contêiner pai */
+  border-radius: 8px; /* Adiciona uma borda arredondada de 8px */
+  padding: 8px; /* Adiciona preenchimento de 8px */
+  border: 2px solid #dfdfdf; /* Adiciona uma borda de 2px sólida com cor */
+}
+
+/* Estilos para links dentro do formulário (geralmente para mensagens de erro) */
+.form-content a {
+  position: absolute; /* Define a posição como absoluta para posicionamento personalizado */
+  bottom: -8px; /* Move o link para baixo para a posição do erro */
+  left: 0; /* Alinha o link à esquerda */
+  visibility: hidden; /* Inicialmente, oculta o link */
+}
+
+/* Estilos para botões no formulário */
+.form button {
+  background-color: #2d1fa7; /* Define a cor de fundo do botão */
+  color: #FFF; /* Define a cor do texto como branco */
+  width: 100%; /* Define a largura como 100% do contêiner pai */
+  border-radius: 14px; /* Adiciona uma borda arredondada de 14px */
+  padding: 10px; /* Adiciona preenchimento de 10px */
+  border: 0; /* Remove a borda do botão */
+  font-size: 16px; /* Define o tamanho da fonte como 16px */
+  cursor: pointer; /* Altera o cursor ao passar o mouse sobre o botão */
+  margin-top: 14px; /* Adiciona margem superior de 14px */
+}
+
+/* Estilos para campos de entrada com erros */
+.form-content.error input {
+  border-color: #ff3b25; /* Muda a cor da borda para indicar um erro */
+}
+
+/* Estilos para links dentro de campos de entrada com erros (geralmente para mensagens de erro) */
+.form-content.error a {
+  color: #ff3b25; /* Define a cor do link como indicativo de erro */
+  visibility: visible; /* Torna o link visível para mostrar a mensagem de erro */
+}
+
+/* Estilos para imagens no centro da página */
+img {
+  margin: 0 auto; /* Centraliza a imagem horizontalmente com margens superior e inferior automáticas */
+}

@@ -1,0 +1,91 @@
+/* Define o estilo global para o corpo da página */
+body {
+    font-family: Arial, sans-serif; /* Define a família de fontes para o corpo da página */
+    text-align: justify; /* Justifica o texto no corpo */
+    margin: 20px; /* Adiciona margem de 20px a todos os lados do corpo */
+    background-color: #491ca9; /* Define a cor de fundo do corpo */
+}
+
+/* Define o estilo para cabeçalhos do nível 1 (h1) */
+h1 {
+    margin-bottom: 20px; /* Adiciona margem inferior de 20px ao cabeçalho h1 */
+}
+
+/* Define o estilo para um grupo de elementos de class "rating" */
+.rating {
+    display: inline-block; /* Exibe o grupo de elementos na mesma linha */
+}
+
+/* Define o estilo para inputs dentro de um grupo "rating" */
+.rating input {
+    display: none; /* Oculta os inputs */
+}
+
+/* Define o estilo para rótulos (labels) dentro do grupo "rating" */
+.rating label {
+    background-color: #24032d; /* Define a cor de fundo dos rótulos */
+    cursor: pointer; /* Altera o cursor para um indicador de seleção (mão) quando o mouse passa sobre os rótulos */
+    width: 30px; /* Define a largura dos rótulos */
+    height: 30px; /* Define a altura dos rótulos */
+    margin: 0 5px; /* Adiciona margem de 0 na parte superior e inferior e 5px na esquerda e direita dos rótulos */
+    font-size: 30px; /* Define o tamanho da fonte dos rótulos */
+}
+
+/* Define o estilo para o símbolo estrela antes dos rótulos */
+.rating label:before {
+    content: "\2605"; /* Define o conteúdo dos rótulos como uma estrela (U+2605) */
+    color: #e3e4df; /* Define a cor do símbolo da estrela como cinza */
+}
+
+/* Define o estilo para o símbolo estrela antes dos rótulos quando o input está checado (selecionado) */
+.rating input:checked ~ label:before {
+    content: "\2605"; /* Define o conteúdo dos rótulos como uma estrela (U+2605) */
+    color: #ddf107; /* Define a cor do símbolo da estrela como amarelo quando o input está checado */
+}
+
+/* Define o estilo para o símbolo estrela antes dos rótulos quando o rótulo é destacado (hovered) */
+.rating:hover input:checked ~ label:before {
+    color: #ffdb58; /* Define a cor do símbolo da estrela como amarelo ao passar o mouse sobre o rótulo */
+}
+
+/* Define o estilo para o símbolo estrela antes dos rótulos quando o rótulo é destacado (hovered) */
+.rating label:hover:before {
+    content: "\2605"; /* Define o conteúdo dos rótulos como uma estrela (U+2605) */
+    color: #ffca08; /* Define a cor do símbolo da estrela como amarelo ao passar o mouse sobre o rótulo */
+}
+
+/* Define o estilo para rótulos (labels) */
+label {
+    display: inline; /* Exibe os rótulos em linha com o texto */
+    margin-top: 10px; /* Adiciona margem superior de 10px aos rótulos */
+    font-weight: bold; /* Define o peso da fonte como negrito para os rótulos */
+}
+
+/* Define o estilo para inputs de tipo "tel" e elementos textarea */
+input[type="tel"],
+textarea {
+    width: 100%; /* Define a largura como 100% */
+    padding: 10px; /* Adiciona preenchimento de 10px aos campos de entrada e áreas de texto */
+    margin-top: 5px; /* Adiciona margem superior de 5px aos campos de entrada e áreas de texto */
+}
+
+/* Define o estilo para botões */
+button {
+    margin-top: 10px; /* Adiciona margem superior de 10px aos botões */
+    padding: 10px 20px; /* Adiciona preenchimento de 10px no topo/inferior e 20px nas laterais dos botões */
+    background-color: #370537; /* Define a cor de fundo dos botões */
+    color: #fff; /* Define a cor do texto como branco */
+    border: none; /* Remove a borda dos botões */
+    cursor: pointer; /* Altera o cursor para um indicador de seleção (mão) ao passar o mouse sobre os botões */
+    font-size: 16px; /* Define o tamanho da fonte como 16px */
+}
+
+/* Define o estilo para botões quando são destacados (hovered) */
+button:hover {
+    background-color: #24032d; /* Altera a cor de fundo dos botões ao passar o mouse sobre eles */
+}
+
+/* Define o estilo para parágrafos (p) */
+p {
+    margin-top: 20px; /* Adiciona margem superior de 20px aos parágrafos */
+}

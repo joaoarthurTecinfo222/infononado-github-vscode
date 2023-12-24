@@ -1,0 +1,98 @@
+/* Define margem zero para o corpo da página */
+body {
+    margin: 0;
+}
+
+/* Estilos para a seção principal do formulário de login */
+.main-login {
+    width: 100vw; /* Ocupa a largura total da janela do navegador */
+    height: 100vh; /* Ocupa a altura total da janela do navegador */
+    background: #ffffff; /* Define um fundo escuro */
+    display: flex; /* Usa flexbox para centralizar os conteúdos horizontal e verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilos para a metade esquerda do formulário de login */
+.left-login {
+    width: 50vw; /* Ocupa metade da largura da janela */
+    height: 100vh; /* Ocupa a altura total da janela */
+    display: flex; /* Usa flexbox para centralizar conteúdos horizontal e verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+}
+
+/* Estilos para o título na metade esquerda do formulário de login */
+.left-login > h1 {
+    font-size: 3vw; /* Define o tamanho da fonte com base na largura da janela */
+    color: rgb(28, 9, 100); /* Define a cor do texto */
+}
+
+/* Estilos para a imagem na metade esquerda do formulário de login */
+.left-login-image {
+    width: 35vw; /* Define a largura da imagem com base na largura da janela */
+}
+
+/* Estilos para a metade direita do formulário de login */
+.right-login {
+    width: 50vw; /* Ocupa metade da largura da janela */
+    height: 100vh; /* Ocupa a altura total da janela */
+    display: flex; /* Usa flexbox para centralizar conteúdos horizontal e verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilos para o cartão de login na metade direita do formulário */
+.card-login {
+    width: 60%; /* Define a largura do cartão */
+    display: flex; /* Usa flexbox para centralizar conteúdos horizontal e verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    padding: 30px 35px; /* Adiciona preenchimento interno */
+    background: #1f087d; /* Define a cor de fundo do cartão */
+    border-radius: 20px; /* Adiciona cantos arredondados */
+    box-shadow: 0px 10px 40px #27a72956; /* Adiciona uma sombra */
+}
+
+/* Estilos para o título no cartão de login */
+.card-login > h1 {
+    color: rgb(239, 240, 240); /* Define a cor do texto */
+    font-weight: 800; /* Define a espessura da fonte */
+    margin: 0; /* Remove margem */
+}
+
+/* Estilos para os campos de texto e rótulos */
+.textfield {
+    width: 100%; /* Ocupa a largura total do contêiner */
+    display: flex; /* Usa flexbox para alinhar verticalmente */
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    align-items: flex-start; /* Alinha os elementos à esquerda */
+    justify-content: center; /* Centraliza verticalmente */
+}
+
+/* Estilos para os campos de entrada de texto */
+.textfield > input {
+    width: 100%; /* Ocupa a largura total do contêiner */
+    border: none; /* Remove a borda */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    padding: 15px; /* Adiciona preenchimento interno */
+    background: #819ee2; /* Define a cor de fundo */
+    color: #010404de; /* Define a cor do texto */
+    font-size: 12pt; /* Define o tamanho da fonte */
+    box-shadow: 0px 10px 40px #0c010156; /* Adiciona uma sombra */
+    outline: none; /* Remove a aparência de foco */
+    box-sizing: border-box; /* Mantém a caixa de dimensionamento */
+}
+
+/* Estilos para os rótulos dos campos de entrada de texto */
+.textfield > label {
+    color: #ffffffde; /* Define a cor do rótulo */
+    margin-bottom: 10px; /* Adiciona margem inferior */
+}
+
+/* Estilos para o texto de espaço reservado nos campos de entrada de texto */
+.textfield > input::placeholder {
+    color: #040a0a94; /* Define a cor do texto de espaço reservado */
+}
